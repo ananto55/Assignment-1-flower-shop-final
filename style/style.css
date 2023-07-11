@@ -153,13 +153,15 @@ button {
     font-weight: 400;
 
     margin-right: 663;
+    margin-bottom: 48px;
 }
 
 .container-3 {
     display: flex;
-    margin: 48px 240px 195px 240px;
-    justify-content: space-between;
-    align-items: center;
+  
+    
+    justify-content: space-evenly;
+    
 }
 
 /* .................container 3...................... */
