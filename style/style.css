@@ -218,6 +218,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
+    
     margin: 100px auto;
     align-items: center;}
 
@@ -227,12 +228,85 @@ button {
     width: 100%;
     line-height: 35px;
     color: rgba(39, 39, 39, 0.8);
-  text-align: center;
+ 
   font-size: 24px;
   font-weight: 600;
  }
  .container-4-g{
     text-align: center;
+    
     gap: 100px;
 
  }
+ /* -------------container-5---------------- */
+.container-5-main{
+    background-color: #E554730D;
+    width: 100%;
+    height: 620px;
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+   
+}
+.hot-deal-heading{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px ;
+}
+.off{
+    color: #E55473;
+}
+.hot-deal{
+    text-align: center;
+}
+.hot-deal-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+margin-bottom: 32px;
+
+}
+/* .................Instagram................ */
+.instagram-heading{
+    color: #272727;
+text-align: center;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+.Instagram-container{
+    margin-bottom: 128px;
+}
+.instagram-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+margin-bottom: 48px;
+
+}
+/* Instagram  picture slider */
+.Instagram-picture-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 128px ;
+    
+}
+.Instagram-picture-container img{
+    
+    height:396px ;
+    width: 342px;
+}
