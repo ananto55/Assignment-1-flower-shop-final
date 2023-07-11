@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* ................................ */
+
+.logo>img {
+    height: 200px;
+    margin-left: 30px;
+}
+
+nav li {
+    list-style: none;
+
+    margin-right: 30px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+.top-btn-container a {
+    color: #E55473;
+    font-size: 20px;
+
+}
+
+/* ................................. */
+
+/* ................Notification..........*/
+.notification{
+    color: red;
+    font-weight: 900;
+    font-size: 40px;
+
+    
+}
+
+
+
+
+/* container-1 */
+.container-1 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 850px;
+    margin-bottom: 178px;
+
+
+}
+
+.left-side-1 {
+    margin-left: 240px;
+
+}
+
+.left-side-1-child-1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
+
+.right-side-1 {
+    width: 635px;
+    height: 800px;
+    padding: 50px 240px 0px 97px;
+
+}
+
+.left-side-1-child-2 {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 708px;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: white;
+}
+
+/* .........................main container-2 .....................*/
+.container-2 {}
+
+.container-2-t1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.container-2-t2 {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    margin-right: 663;
+}
+
+.container-3 {
+    display: flex;
+    margin: 48px 240px 195px 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .................container 3...................... */
+.image1 {
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 76px;
+    background-color: #A7216226;
+    border-radius: 300px 300px 0 0;
+
+}
+
+.image2 {
+    width: 370px;
+    height: 370px;
+    padding: 117px 47px 51px 47px;
+    background-color: #0597A026;
+    border-radius: 300px 300px 0 0;
+
+}
+
+.image3 {
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
+    background-color: #477D1126;
+    border-radius: 300px 300px 0 0;
+}
+
+.text1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.text2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.text3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* ....................... container-4.............................. */
+.container-4 {
+    background-color: #2727270D;
+    width: 1440px;
+    height: 320px;
+    margin: 128px 240px;
+    
+
+}
+.container-4 li{
+    list-style: none;
+    
+}
+.container-4 ul{
+    display: flex;
+}
