@@ -45,7 +45,7 @@ nav ul {
 
 }
 nav li :hover{
-    background-color: #E55473;
+    background-color: #f8083c;
     color: white;
 }
 
@@ -413,5 +413,24 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+/*----------------- hover effect add------------------- */
 
-
+.pic1:hover{
+    box-shadow: 0px 5px 12px 10px #E55473;
+    
+}
+.pic2:hover{
+    box-shadow: 0px 5px 12px 10px #E55473;
+    
+}
+.pic3:hover{
+    box-shadow: 0px 5px 12px 10px #E55473;
+    
+}
+.pic4:hover{
+    box-shadow: 0px 5px 12px 10px #E55473;
+    
+}
+form input:hover{
+    box-shadow: 2px 5px 12px 5px #E55473;
+}
