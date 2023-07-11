@@ -297,7 +297,7 @@ font-style: normal;
 margin-bottom: 48px;
 
 }
-/* Instagram  picture slider */
+/* ----------Instagram  picture slider---------- */
 .Instagram-picture-container{
     display: flex;
     justify-content: center;
@@ -309,4 +309,50 @@ margin-bottom: 48px;
     
     height:396px ;
     width: 342px;
+    
+}
+/* -----------Subscribe bar-----------------  */
+.Subscribe-bar-container{
+    background-image: url('../Asset/Rectangle\ 9.png');
+    height: 449px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 128px;
+    
+
+}
+.Subscribe-heading{
+    color: #272727;
+
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+padding-top: 122px;
+
+
+}
+.Subscribe-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+padding-top: 16px;
+
+
+}
+form input{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+border: none;
+padding-left: 22px ;
+}
+.form-subcribe{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 48px;
 }
